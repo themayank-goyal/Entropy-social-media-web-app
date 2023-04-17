@@ -57,6 +57,7 @@ export default function App() {
 
   return (
     <div className="app">
+      <Profile posts={posts} username={user?.displayName}/>
       <ToastContainer />
       <div className="app__header">
         <img

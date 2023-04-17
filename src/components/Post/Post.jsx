@@ -12,7 +12,6 @@ import { addComment,getAllComments } from '../../utils/firebase.js';
 export default function Post({ username, imageUrl, caption, postId }) {
   const [comment, setComment] = useState('');
   const [allComments,setAllComments] = useState([]);
-  const [options, setOptions] = useState(false);
 
   useEffect(() => {
     getAllComments(postId, setAllComments);
