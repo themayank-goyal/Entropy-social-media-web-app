@@ -1,0 +1,74 @@
+.imageUpload {
+  border-radius: 11px;
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+  align-items: center;
+  gap: 8px;
+  width: 50vw;
+  padding: 16px;
+  border:2px solid #7fd6c2;
+  margin: auto;
+  margin-bottom: 24px;
+  background-color: rgb(255, 252, 252);
+}
+
+.imageUpload > progress {
+  width: 100%;
+  height: 32px;
+  color: blue;
+}
+
+.imageUpload__caption {
+  width: 100%;
+  border-radius: 11px;
+  padding: 8px;
+  border: none;
+  outline: none;
+
+}
+
+.imageUpload > input {
+  width: 100%;
+  height: 30px;
+}
+
+.imageUpload > button {
+  width: 100%;
+  padding: 6px;
+  border: none;
+  background-color: #7fd6c2;
+  border-radius: 11px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.imageUpload__file {
+  padding: 4px;
+}
+
+.button-41 {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #00D775, #00BD68);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  height: 44px;
+  line-height: 44px;
+  outline: 0;
+  overflow: hidden;
+  pointer-events: auto;
+  text-align: center;
+  /* touch-action: manipulation; */
+  white-space: nowrap;
+  width: 100%;
+  z-index: 9;
+  border: 0;
+}
+
+.button-41:hover {
+  background: #00bd68;
+}
